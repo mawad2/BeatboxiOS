@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.7.3)
+  - DPVideoMerger-Swift (1.5.10)
+  - FDTake (3.0.0)
+  - Kingfisher (4.10.0)
+  - PryntTrimmerView (4.0.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftyJSON (4.2.0)
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DPVideoMerger-Swift
+  - FDTake
+  - Kingfisher (~> 4.0)
+  - PryntTrimmerView
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DPVideoMerger-Swift
+    - FDTake
+    - Kingfisher
+    - PryntTrimmerView
+    - SDWebImage
+    - SwiftyJSON
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DPVideoMerger-Swift: 6d690f4830e1e5bca071f84b31255da9778321e5
+  FDTake: cbae493765483304fbaa48e402ea3d7b22ba86d0
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: 83ffaa5c3902e582541d46126438d69a0cb85e4b
+
+COCOAPODS: 1.8.4

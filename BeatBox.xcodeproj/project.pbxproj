@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04415CB925C2FE0D001BC940 /* movie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 04415CB725C2FE0D001BC940 /* movie1.mov */; };
+		04415CBB25C2FE31001BC940 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 04415CBA25C2FE31001BC940 /* movie2.mov */; };
+		046F67DE257559E5006B76F1 /* BeatBoxData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046F67DC257559E5006B76F1 /* BeatBoxData.xcdatamodeld */; };
+		046F68062576A1EA006B76F1 /* VideoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F68042576A1EA006B76F1 /* VideoCollectionViewController.swift */; };
+		046F68072576A1EA006B76F1 /* VideoCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046F68052576A1EA006B76F1 /* VideoCollectionViewController.xib */; };
+		046F680F2577FD4D006B76F1 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F680E2577FD4D006B76F1 /* PersistentStorage.swift */; };
+		048C0FAF259E18C500149E73 /* BeatBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C0FAE259E18C500149E73 /* BeatBoxModel.swift */; };
+		04D6A8042592F688009023F4 /* Video+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6A8022592F688009023F4 /* Video+CoreDataClass.swift */; };
+		04D6A8052592F688009023F4 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6A8032592F688009023F4 /* Video+CoreDataProperties.swift */; };
+		04D6A80F25936418009023F4 /* VideoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6A80E25936418009023F4 /* VideoRepository.swift */; };
+		04D77B8B25E549870061D1B3 /* GenreCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77B8A25E549870061D1B3 /* GenreCollectionModel.swift */; };
+		2071D6C4217314170093EE38 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2071D6C3217314170093EE38 /* loader.gif */; };
+		207797E92170750E005B69CE /* JoiningSequenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207797E82170750D005B69CE /* JoiningSequenceModel.swift */; };
+		207797F12170819E005B69CE /* movie4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 207797EC2170819D005B69CE /* movie4.mp4 */; };
+		207797F32170819E005B69CE /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 207797EE2170819D005B69CE /* silence.mp3 */; };
+		207797F42170819E005B69CE /* movie3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 207797EF2170819D005B69CE /* movie3.mp4 */; };
+		20AF4F6B2171BAD1000165EE /* BeatBoxLogsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF4F6A2171BAD1000165EE /* BeatBoxLogsViewControllers.swift */; };
+		4B00C183212602EE007F88CF /* BeatBoxCameraBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B00C181212602EE007F88CF /* BeatBoxCameraBoard.storyboard */; };
+		4B00C184212602EE007F88CF /* BeatBoxCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00C182212602EE007F88CF /* BeatBoxCameraViewController.swift */; };
+		4B030B6F2115B68E0014B9F1 /* GenreCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B030B6E2115B68E0014B9F1 /* GenreCollectionCell.swift */; };
+		4B030B72211612880014B9F1 /* GenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B030B71211612880014B9F1 /* GenreModel.swift */; };
+		4B030B74211613D00014B9F1 /* TMAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B030B73211613D00014B9F1 /* TMAlert.swift */; };
+		4B030B772116C5420014B9F1 /* BeatBoxHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B030B762116C5420014B9F1 /* BeatBoxHeroViewController.swift */; };
+		4B030B792116C7C60014B9F1 /* BeatBoxBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B030B782116C7C60014B9F1 /* BeatBoxBoard.storyboard */; };
+		4B09B6672110F3D000A9A9E2 /* SoundBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09B6662110F3D000A9A9E2 /* SoundBankViewController.swift */; };
+		4B09B6692110F3E700A9A9E2 /* SoundBankBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B09B6682110F3E700A9A9E2 /* SoundBankBoard.storyboard */; };
+		4B0FC7A92114D7D7002DA40D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC7A82114D7D7002DA40D /* Constants.swift */; };
+		4B0FC7B32115839B002DA40D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC7AE2115839A002DA40D /* LoadingView.swift */; };
+		4B0FC7B42115839B002DA40D /* Controller+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC7AF2115839A002DA40D /* Controller+Loader.swift */; };
+		4B0FC7B62115839B002DA40D /* ServerTalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC7B12115839A002DA40D /* ServerTalker.swift */; };
+		4B0FC7B72115839B002DA40D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC7B22115839B002DA40D /* APIManager.swift */; };
+		4B10425C2121D46500054EBC /* DPVideoMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10425B2121D46500054EBC /* DPVideoMerger.swift */; };
+		4B1F1AAB21189A6700400CC5 /* SoundBankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F1AAA21189A6700400CC5 /* SoundBankModel.swift */; };
+		4B715C9D21289081001C333E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9321289020001C333E /* Lato-Black.ttf */; };
+		4B715C9E21289081001C333E /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9121289020001C333E /* Lato-BlackItalic.ttf */; };
+		4B715C9F21289081001C333E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9921289020001C333E /* Lato-Bold.ttf */; };
+		4B715CA021289081001C333E /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C8E21289020001C333E /* Lato-BoldItalic.ttf */; };
+		4B715CA121289081001C333E /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9521289020001C333E /* Lato-Hairline.ttf */; };
+		4B715CA221289081001C333E /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9B21289021001C333E /* Lato-HairlineItalic.ttf */; };
+		4B715CA321289081001C333E /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9021289020001C333E /* Lato-Heavy.ttf */; };
+		4B715CA421289081001C333E /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C8F21289020001C333E /* Lato-HeavyItalic.ttf */; };
+		4B715CA521289081001C333E /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C8B21289020001C333E /* Lato-Italic.ttf */; };
+		4B715CA621289081001C333E /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9A21289020001C333E /* Lato-Light.ttf */; };
+		4B715CA721289081001C333E /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9721289020001C333E /* Lato-LightItalic.ttf */; };
+		4B715CA821289081001C333E /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9821289020001C333E /* Lato-Medium.ttf */; };
+		4B715CA921289081001C333E /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9421289020001C333E /* Lato-MediumItalic.ttf */; };
+		4B715CAA21289081001C333E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9621289020001C333E /* Lato-Regular.ttf */; };
+		4B715CAB21289081001C333E /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9221289020001C333E /* Lato-Semibold.ttf */; };
+		4B715CAC21289081001C333E /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C9C21289021001C333E /* Lato-SemiboldItalic.ttf */; };
+		4B715CAD21289081001C333E /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C8C21289020001C333E /* Lato-Thin.ttf */; };
+		4B715CAE21289081001C333E /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B715C8D21289020001C333E /* Lato-ThinItalic.ttf */; };
+		4BBF731B212B375100750605 /* CameraAccessStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF731A212B375100750605 /* CameraAccessStatusViewController.swift */; };
+		4BBF731D212B375F00750605 /* CameraAccessStatusBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF731C212B375F00750605 /* CameraAccessStatusBoard.storyboard */; };
+		4BBF7320212B424200750605 /* CameraPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF731F212B424200750605 /* CameraPermissions.swift */; };
+		61F1CB0A1F470BD2CCB34EF0 /* Pods_BeatBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10ECCCF9C5521B70F44BCBC /* Pods_BeatBox.framework */; };
+		9FB5855D1FEA2F2C0082F0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5855C1FEA2F2C0082F0CE /* AppDelegate.swift */; };
+		9FB5855F1FEA2F2C0082F0CE /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5855E1FEA2F2C0082F0CE /* SelectGenreViewController.swift */; };
+		9FB585621FEA2F2C0082F0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB585601FEA2F2C0082F0CE /* Main.storyboard */; };
+		9FB585641FEA2F2C0082F0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB585631FEA2F2C0082F0CE /* Assets.xcassets */; };
+		9FB585671FEA2F2C0082F0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB585651FEA2F2C0082F0CE /* LaunchScreen.storyboard */; };
+		9FB5856F1FEA2F810082F0CE /* KVVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5856E1FEA2F800082F0CE /* KVVideoManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04415CB725C2FE0D001BC940 /* movie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie1.mov; path = "../../../../../../Volumes/dia hard/BeatBox-WorkingCopy/MergeVideos/Sample video/movie1.mov"; sourceTree = "<group>"; };
+		04415CBA25C2FE31001BC940 /* movie2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = movie2.mov; path = "../../../../../../Volumes/dia hard/BeatBox-WorkingCopy/MergeVideos/SampleVideo/movie2.mov"; sourceTree = "<group>"; };
+		046F67DD257559E5006B76F1 /* BeatBoxData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeatBoxData.xcdatamodel; sourceTree = "<group>"; };
+		046F68042576A1EA006B76F1 /* VideoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewController.swift; sourceTree = "<group>"; };
+		046F68052576A1EA006B76F1 /* VideoCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewController.xib; sourceTree = "<group>"; };
+		046F680E2577FD4D006B76F1 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		048C0FAE259E18C500149E73 /* BeatBoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBoxModel.swift; sourceTree = "<group>"; };
+		04D6A8022592F688009023F4 /* Video+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Video+CoreDataClass.swift"; path = "MergeVideos/BeatCoreData/Video+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04D6A8032592F688009023F4 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Video+CoreDataProperties.swift"; path = "MergeVideos/BeatCoreData/Video+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04D6A80E25936418009023F4 /* VideoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepository.swift; sourceTree = "<group>"; };
+		04D77B8A25E549870061D1B3 /* GenreCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionModel.swift; sourceTree = "<group>"; };
+		120D421B11D234A90309D709 /* Pods-MergeVideos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeVideos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeVideos/Pods-MergeVideos.release.xcconfig"; sourceTree = "<group>"; };
+		12101AD7C6CD6152641FB28F /* Pods-BeatBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatBox/Pods-BeatBox.release.xcconfig"; sourceTree = "<group>"; };
+		2071D6C3217314170093EE38 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		207797E82170750D005B69CE /* JoiningSequenceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoiningSequenceModel.swift; sourceTree = "<group>"; };
+		207797EC2170819D005B69CE /* movie4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie4.mp4; sourceTree = "<group>"; };
+		207797EE2170819D005B69CE /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
+		207797EF2170819D005B69CE /* movie3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie3.mp4; sourceTree = "<group>"; };
+		20AF4F6A2171BAD1000165EE /* BeatBoxLogsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBoxLogsViewControllers.swift; sourceTree = "<group>"; };
+		226F5B5B88298E15EBD89684 /* Pods_MergeVideos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeVideos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461AE80AAB042A2C5866C10C /* Pods-MergeVideos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeVideos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeVideos/Pods-MergeVideos.debug.xcconfig"; sourceTree = "<group>"; };
+		4B00C181212602EE007F88CF /* BeatBoxCameraBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BeatBoxCameraBoard.storyboard; sourceTree = "<group>"; };
+		4B00C182212602EE007F88CF /* BeatBoxCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatBoxCameraViewController.swift; sourceTree = "<group>"; };
+		4B030B6E2115B68E0014B9F1 /* GenreCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionCell.swift; sourceTree = "<group>"; };
+		4B030B71211612880014B9F1 /* GenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreModel.swift; sourceTree = "<group>"; };
+		4B030B73211613D00014B9F1 /* TMAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMAlert.swift; sourceTree = "<group>"; };
+		4B030B762116C5420014B9F1 /* BeatBoxHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBoxHeroViewController.swift; sourceTree = "<group>"; };
+		4B030B782116C7C60014B9F1 /* BeatBoxBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeatBoxBoard.storyboard; sourceTree = "<group>"; };
+		4B09B6662110F3D000A9A9E2 /* SoundBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBankViewController.swift; sourceTree = "<group>"; };
+		4B09B6682110F3E700A9A9E2 /* SoundBankBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SoundBankBoard.storyboard; sourceTree = "<group>"; };
+		4B0FC7A82114D7D7002DA40D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B0FC7AE2115839A002DA40D /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4B0FC7AF2115839A002DA40D /* Controller+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Controller+Loader.swift"; sourceTree = "<group>"; };
+		4B0FC7B12115839A002DA40D /* ServerTalker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTalker.swift; sourceTree = "<group>"; };
+		4B0FC7B22115839B002DA40D /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4B10425B2121D46500054EBC /* DPVideoMerger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPVideoMerger.swift; path = MergeVideos/Helpers/DPVideoMerger/DPVideoMerger.swift; sourceTree = SOURCE_ROOT; };
+		4B1F1AAA21189A6700400CC5 /* SoundBankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBankModel.swift; sourceTree = "<group>"; };
+		4B715C8B21289020001C333E /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4B715C8C21289020001C333E /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		4B715C8D21289020001C333E /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4B715C8E21289020001C333E /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4B715C8F21289020001C333E /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		4B715C9021289020001C333E /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		4B715C9121289020001C333E /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4B715C9221289020001C333E /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		4B715C9321289020001C333E /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		4B715C9421289020001C333E /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4B715C9521289020001C333E /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		4B715C9621289020001C333E /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		4B715C9721289020001C333E /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		4B715C9821289020001C333E /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		4B715C9921289020001C333E /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		4B715C9A21289020001C333E /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		4B715C9B21289021001C333E /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		4B715C9C21289021001C333E /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		4BBF731A212B375100750605 /* CameraAccessStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAccessStatusViewController.swift; sourceTree = "<group>"; };
+		4BBF731C212B375F00750605 /* CameraAccessStatusBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraAccessStatusBoard.storyboard; sourceTree = "<group>"; };
+		4BBF731F212B424200750605 /* CameraPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissions.swift; sourceTree = "<group>"; };
+		7CF238D66D3F48265E9B1748 /* Pods-BeatBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatBox/Pods-BeatBox.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB585591FEA2F2C0082F0CE /* BeatBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB5855C1FEA2F2C0082F0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FB5855E1FEA2F2C0082F0CE /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		9FB585611FEA2F2C0082F0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FB585631FEA2F2C0082F0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB585661FEA2F2C0082F0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FB585681FEA2F2C0082F0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB5856E1FEA2F800082F0CE /* KVVideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVVideoManager.swift; sourceTree = "<group>"; };
+		F10ECCCF9C5521B70F44BCBC /* Pods_BeatBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB585561FEA2F2C0082F0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F1CB0A1F470BD2CCB34EF0 /* Pods_BeatBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F68032576A09B006B76F1 /* VideoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				046F68042576A1EA006B76F1 /* VideoCollectionViewController.swift */,
+				046F68052576A1EA006B76F1 /* VideoCollectionViewController.xib */,
+			);
+			path = VideoCollection;
+			sourceTree = "<group>";
+		};
+		048C0FAD259E187600149E73 /* BeatCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04D6A8022592F688009023F4 /* Video+CoreDataClass.swift */,
+				04D6A8032592F688009023F4 /* Video+CoreDataProperties.swift */,
+				046F67DC257559E5006B76F1 /* BeatBoxData.xcdatamodeld */,
+				04D6A80E25936418009023F4 /* VideoRepository.swift */,
+				048C0FAE259E18C500149E73 /* BeatBoxModel.swift */,
+			);
+			path = BeatCoreData;
+			sourceTree = "<group>";
+		};
+		09E07E6CEECD83F3EC350656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226F5B5B88298E15EBD89684 /* Pods_MergeVideos.framework */,
+				F10ECCCF9C5521B70F44BCBC /* Pods_BeatBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207797EA21708170005B69CE /* SampleVideo */ = {
+			isa = PBXGroup;
+			children = (
+				04415CB725C2FE0D001BC940 /* movie1.mov */,
+				04415CBA25C2FE31001BC940 /* movie2.mov */,
+				207797EF2170819D005B69CE /* movie3.mp4 */,
+				207797EC2170819D005B69CE /* movie4.mp4 */,
+				207797EE2170819D005B69CE /* silence.mp3 */,
+			);
+			path = SampleVideo;
+			sourceTree = "<group>";
+		};
+		20AF4F692171BA98000165EE /* BeatBoxLogsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20AF4F6A2171BAD1000165EE /* BeatBoxLogsViewControllers.swift */,
+			);
+			path = BeatBoxLogsViewControllers;
+			sourceTree = "<group>";
+		};
+		4B030B6C2115B4ED0014B9F1 /* SelectGenreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B030B70211612660014B9F1 /* GenreModel */,
+				4B030B6D2115B6760014B9F1 /* GenreCollectionCell */,
+				9FB5855E1FEA2F2C0082F0CE /* SelectGenreViewController.swift */,
+				9FB585601FEA2F2C0082F0CE /* Main.storyboard */,
+			);
+			path = SelectGenreViewController;
+			sourceTree = "<group>";
+		};
+		4B030B6D2115B6760014B9F1 /* GenreCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				4B030B6E2115B68E0014B9F1 /* GenreCollectionCell.swift */,
+			);
+			path = GenreCollectionCell;
+			sourceTree = "<group>";
+		};
+		4B030B70211612660014B9F1 /* GenreModel */ = {
+			isa = PBXGroup;
+			children = (
+				207797E82170750D005B69CE /* JoiningSequenceModel.swift */,
+				4B030B71211612880014B9F1 /* GenreModel.swift */,
+			);
+			path = GenreModel;
+			sourceTree = "<group>";
+		};
+		4B030B752116C5240014B9F1 /* BeatBoxHeroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B030B762116C5420014B9F1 /* BeatBoxHeroViewController.swift */,
+				4B030B782116C7C60014B9F1 /* BeatBoxBoard.storyboard */,
+			);
+			path = BeatBoxHeroViewController;
+			sourceTree = "<group>";
+		};
+		4B09B6652110F3A000A9A9E2 /* SoundBankViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B1F1AA921189A4C00400CC5 /* SoundBankModel */,
+				4B09B6662110F3D000A9A9E2 /* SoundBankViewController.swift */,
+				4B09B6682110F3E700A9A9E2 /* SoundBankBoard.storyboard */,
+			);
+			path = SoundBankViewController;
+			sourceTree = "<group>";
+		};
+		4B0FC7A72114D79B002DA40D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B10425A2121D44C00054EBC /* DPVideoMerger */,
+				4B0FC7B22115839B002DA40D /* APIManager.swift */,
+				4B0FC7B12115839A002DA40D /* ServerTalker.swift */,
+				4B0FC7AF2115839A002DA40D /* Controller+Loader.swift */,
+				4B0FC7AE2115839A002DA40D /* LoadingView.swift */,
+				4B030B73211613D00014B9F1 /* TMAlert.swift */,
+				4B0FC7A82114D7D7002DA40D /* Constants.swift */,
+				4BBF731F212B424200750605 /* CameraPermissions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4B10425A2121D44C00054EBC /* DPVideoMerger */ = {
+			isa = PBXGroup;
+			children = (
+				4B10425B2121D46500054EBC /* DPVideoMerger.swift */,
+			);
+			name = DPVideoMerger;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4B1F1AA921189A4C00400CC5 /* SoundBankModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B1F1AAA21189A6700400CC5 /* SoundBankModel.swift */,
+				04D77B8A25E549870061D1B3 /* GenreCollectionModel.swift */,
+			);
+			path = SoundBankModel;
+			sourceTree = "<group>";
+		};
+		4B715C8A21289009001C333E /* Lato Font */ = {
+			isa = PBXGroup;
+			children = (
+				4B715C9321289020001C333E /* Lato-Black.ttf */,
+				4B715C9121289020001C333E /* Lato-BlackItalic.ttf */,
+				4B715C9921289020001C333E /* Lato-Bold.ttf */,
+				4B715C8E21289020001C333E /* Lato-BoldItalic.ttf */,
+				4B715C9521289020001C333E /* Lato-Hairline.ttf */,
+				4B715C9B21289021001C333E /* Lato-HairlineItalic.ttf */,
+				4B715C9021289020001C333E /* Lato-Heavy.ttf */,
+				4B715C8F21289020001C333E /* Lato-HeavyItalic.ttf */,
+				4B715C8B21289020001C333E /* Lato-Italic.ttf */,
+				4B715C9A21289020001C333E /* Lato-Light.ttf */,
+				4B715C9721289020001C333E /* Lato-LightItalic.ttf */,
+				4B715C9821289020001C333E /* Lato-Medium.ttf */,
+				4B715C9421289020001C333E /* Lato-MediumItalic.ttf */,
+				4B715C9621289020001C333E /* Lato-Regular.ttf */,
+				4B715C9221289020001C333E /* Lato-Semibold.ttf */,
+				4B715C9C21289021001C333E /* Lato-SemiboldItalic.ttf */,
+				4B715C8C21289020001C333E /* Lato-Thin.ttf */,
+				4B715C8D21289020001C333E /* Lato-ThinItalic.ttf */,
+			);
+			path = "Lato Font";
+			sourceTree = "<group>";
+		};
+		4BA0BB4E211C8B120031C309 /* BeatBoxCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B00C182212602EE007F88CF /* BeatBoxCameraViewController.swift */,
+				4B00C181212602EE007F88CF /* BeatBoxCameraBoard.storyboard */,
+			);
+			path = BeatBoxCameraViewController;
+			sourceTree = "<group>";
+		};
+		4BBF7319212B372B00750605 /* CameraAccessStatusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BBF731A212B375100750605 /* CameraAccessStatusViewController.swift */,
+				4BBF731C212B375F00750605 /* CameraAccessStatusBoard.storyboard */,
+			);
+			path = CameraAccessStatusViewController;
+			sourceTree = "<group>";
+		};
+		9FB585501FEA2F2B0082F0CE = {
+			isa = PBXGroup;
+			children = (
+				9FB5855B1FEA2F2C0082F0CE /* MergeVideos */,
+				9FB5855A1FEA2F2C0082F0CE /* Products */,
+				E3270B90AA6EBEA9092035D1 /* Pods */,
+				09E07E6CEECD83F3EC350656 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB5855A1FEA2F2C0082F0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB585591FEA2F2C0082F0CE /* BeatBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB5855B1FEA2F2C0082F0CE /* MergeVideos */ = {
+			isa = PBXGroup;
+			children = (
+				048C0FAD259E187600149E73 /* BeatCoreData */,
+				046F68032576A09B006B76F1 /* VideoCollection */,
+				207797EA21708170005B69CE /* SampleVideo */,
+				20AF4F692171BA98000165EE /* BeatBoxLogsViewControllers */,
+				4BBF7319212B372B00750605 /* CameraAccessStatusViewController */,
+				4B030B752116C5240014B9F1 /* BeatBoxHeroViewController */,
+				4BA0BB4E211C8B120031C309 /* BeatBoxCameraViewController */,
+				4B09B6652110F3A000A9A9E2 /* SoundBankViewController */,
+				4B030B6C2115B4ED0014B9F1 /* SelectGenreViewController */,
+				4B0FC7A72114D79B002DA40D /* Helpers */,
+				9FB585761FEA32CC0082F0CE /* VideoManager */,
+				9FB5855C1FEA2F2C0082F0CE /* AppDelegate.swift */,
+				9FB585631FEA2F2C0082F0CE /* Assets.xcassets */,
+				4B715C8A21289009001C333E /* Lato Font */,
+				9FB585651FEA2F2C0082F0CE /* LaunchScreen.storyboard */,
+				9FB585681FEA2F2C0082F0CE /* Info.plist */,
+				2071D6C3217314170093EE38 /* loader.gif */,
+				046F680E2577FD4D006B76F1 /* PersistentStorage.swift */,
+			);
+			path = MergeVideos;
+			sourceTree = "<group>";
+		};
+		9FB585761FEA32CC0082F0CE /* VideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5856E1FEA2F800082F0CE /* KVVideoManager.swift */,
+			);
+			path = VideoManager;
+			sourceTree = "<group>";
+		};
+		E3270B90AA6EBEA9092035D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				461AE80AAB042A2C5866C10C /* Pods-MergeVideos.debug.xcconfig */,
+				120D421B11D234A90309D709 /* Pods-MergeVideos.release.xcconfig */,
+				7CF238D66D3F48265E9B1748 /* Pods-BeatBox.debug.xcconfig */,
+				12101AD7C6CD6152641FB28F /* Pods-BeatBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB585581FEA2F2C0082F0CE /* BeatBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB5856B1FEA2F2C0082F0CE /* Build configuration list for PBXNativeTarget "BeatBox" */;
+			buildPhases = (
+				B6CD67D0F3C88CA3F855ECB8 /* [CP] Check Pods Manifest.lock */,
+				9FB585551FEA2F2C0082F0CE /* Sources */,
+				9FB585561FEA2F2C0082F0CE /* Frameworks */,
+				9FB585571FEA2F2C0082F0CE /* Resources */,
+				25D4923A0E2BA389EFBFF380 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatBox;
+			productName = MergeVideos;
+			productReference = 9FB585591FEA2F2C0082F0CE /* BeatBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB585511FEA2F2B0082F0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KV;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Khoa Vo";
+				TargetAttributes = {
+					9FB585581FEA2F2C0082F0CE = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 9FB585541FEA2F2B0082F0CE /* Build configuration list for PBXProject "BeatBox" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB585501FEA2F2B0082F0CE;
+			productRefGroup = 9FB5855A1FEA2F2C0082F0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB585581FEA2F2C0082F0CE /* BeatBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB585571FEA2F2C0082F0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B715CA921289081001C333E /* Lato-MediumItalic.ttf in Resources */,
+				4B715C9E21289081001C333E /* Lato-BlackItalic.ttf in Resources */,
+				4B715C9D21289081001C333E /* Lato-Black.ttf in Resources */,
+				4B715CAC21289081001C333E /* Lato-SemiboldItalic.ttf in Resources */,
+				4B715CA221289081001C333E /* Lato-HairlineItalic.ttf in Resources */,
+				4BBF731D212B375F00750605 /* CameraAccessStatusBoard.storyboard in Resources */,
+				4B715CA121289081001C333E /* Lato-Hairline.ttf in Resources */,
+				4B715CAD21289081001C333E /* Lato-Thin.ttf in Resources */,
+				9FB585671FEA2F2C0082F0CE /* LaunchScreen.storyboard in Resources */,
+				9FB585641FEA2F2C0082F0CE /* Assets.xcassets in Resources */,
+				4B715CAA21289081001C333E /* Lato-Regular.ttf in Resources */,
+				4B00C183212602EE007F88CF /* BeatBoxCameraBoard.storyboard in Resources */,
+				4B030B792116C7C60014B9F1 /* BeatBoxBoard.storyboard in Resources */,
+				2071D6C4217314170093EE38 /* loader.gif in Resources */,
+				207797F12170819E005B69CE /* movie4.mp4 in Resources */,
+				9FB585621FEA2F2C0082F0CE /* Main.storyboard in Resources */,
+				4B715CAE21289081001C333E /* Lato-ThinItalic.ttf in Resources */,
+				4B715C9F21289081001C333E /* Lato-Bold.ttf in Resources */,
+				4B715CA721289081001C333E /* Lato-LightItalic.ttf in Resources */,
+				207797F32170819E005B69CE /* silence.mp3 in Resources */,
+				4B715CA521289081001C333E /* Lato-Italic.ttf in Resources */,
+				4B715CAB21289081001C333E /* Lato-Semibold.ttf in Resources */,
+				4B715CA321289081001C333E /* Lato-Heavy.ttf in Resources */,
+				4B715CA821289081001C333E /* Lato-Medium.ttf in Resources */,
+				4B09B6692110F3E700A9A9E2 /* SoundBankBoard.storyboard in Resources */,
+				4B715CA421289081001C333E /* Lato-HeavyItalic.ttf in Resources */,
+				04415CB925C2FE0D001BC940 /* movie1.mov in Resources */,
+				207797F42170819E005B69CE /* movie3.mp4 in Resources */,
+				04415CBB25C2FE31001BC940 /* movie2.mov in Resources */,
+				046F68072576A1EA006B76F1 /* VideoCollectionViewController.xib in Resources */,
+				4B715CA021289081001C333E /* Lato-BoldItalic.ttf in Resources */,
+				4B715CA621289081001C333E /* Lato-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25D4923A0E2BA389EFBFF380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeatBox/Pods-BeatBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeatBox/Pods-BeatBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeatBox/Pods-BeatBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CD67D0F3C88CA3F855ECB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeatBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB585551FEA2F2C0082F0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0FC7B62115839B002DA40D /* ServerTalker.swift in Sources */,
+				4B030B6F2115B68E0014B9F1 /* GenreCollectionCell.swift in Sources */,
+				4B0FC7A92114D7D7002DA40D /* Constants.swift in Sources */,
+				4BBF7320212B424200750605 /* CameraPermissions.swift in Sources */,
+				046F68062576A1EA006B76F1 /* VideoCollectionViewController.swift in Sources */,
+				4B0FC7B72115839B002DA40D /* APIManager.swift in Sources */,
+				4B030B72211612880014B9F1 /* GenreModel.swift in Sources */,
+				048C0FAF259E18C500149E73 /* BeatBoxModel.swift in Sources */,
+				04D6A8052592F688009023F4 /* Video+CoreDataProperties.swift in Sources */,
+				04D6A8042592F688009023F4 /* Video+CoreDataClass.swift in Sources */,
+				4B1F1AAB21189A6700400CC5 /* SoundBankModel.swift in Sources */,
+				04D77B8B25E549870061D1B3 /* GenreCollectionModel.swift in Sources */,
+				4BBF731B212B375100750605 /* CameraAccessStatusViewController.swift in Sources */,
+				4B030B772116C5420014B9F1 /* BeatBoxHeroViewController.swift in Sources */,
+				207797E92170750E005B69CE /* JoiningSequenceModel.swift in Sources */,
+				04D6A80F25936418009023F4 /* VideoRepository.swift in Sources */,
+				046F680F2577FD4D006B76F1 /* PersistentStorage.swift in Sources */,
+				4B10425C2121D46500054EBC /* DPVideoMerger.swift in Sources */,
+				4B030B74211613D00014B9F1 /* TMAlert.swift in Sources */,
+				4B0FC7B42115839B002DA40D /* Controller+Loader.swift in Sources */,
+				9FB5855F1FEA2F2C0082F0CE /* SelectGenreViewController.swift in Sources */,
+				20AF4F6B2171BAD1000165EE /* BeatBoxLogsViewControllers.swift in Sources */,
+				4B09B6672110F3D000A9A9E2 /* SoundBankViewController.swift in Sources */,
+				9FB5856F1FEA2F810082F0CE /* KVVideoManager.swift in Sources */,
+				9FB5855D1FEA2F2C0082F0CE /* AppDelegate.swift in Sources */,
+				4B00C184212602EE007F88CF /* BeatBoxCameraViewController.swift in Sources */,
+				4B0FC7B32115839B002DA40D /* LoadingView.swift in Sources */,
+				046F67DE257559E5006B76F1 /* BeatBoxData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FB585601FEA2F2C0082F0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB585611FEA2F2C0082F0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FB585651FEA2F2C0082F0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB585661FEA2F2C0082F0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FB585691FEA2F2C0082F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FB5856A1FEA2F2C0082F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB5856C1FEA2F2C0082F0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF238D66D3F48265E9B1748 /* Pods-BeatBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MergeVideos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatBoxHero.VideoMerger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FB5856D1FEA2F2C0082F0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12101AD7C6CD6152641FB28F /* Pods-BeatBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MergeVideos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatBoxHero.VideoMerger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB585541FEA2F2B0082F0CE /* Build configuration list for PBXProject "BeatBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB585691FEA2F2C0082F0CE /* Debug */,
+				9FB5856A1FEA2F2C0082F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB5856B1FEA2F2C0082F0CE /* Build configuration list for PBXNativeTarget "BeatBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB5856C1FEA2F2C0082F0CE /* Debug */,
+				9FB5856D1FEA2F2C0082F0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046F67DC257559E5006B76F1 /* BeatBoxData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046F67DD257559E5006B76F1 /* BeatBoxData.xcdatamodel */,
+			);
+			currentVersion = 046F67DD257559E5006B76F1 /* BeatBoxData.xcdatamodel */;
+			path = BeatBoxData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FB585511FEA2F2B0082F0CE /* Project object */;
+}
